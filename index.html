@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokitoki Tea</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav>
+    <ul>
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#tentang">Tentang Kami</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+ > <!-- Beranda -->
+  <header id="beranda">
+  <h1>Selamat Datang di <span style="color:#1e90ff;">Tokitoki Tea</span></h1>
+  <p>
+    Temukan kesegaran dalam setiap tegukan. Tokitoki Tea menghadirkan
+    perpaduan cita rasa teh berkualitas dan sentuhan modern yang menggoda.
+    Dari brown sugar boba hingga fruit tea yang menyegarkan, setiap minuman
+    kami dibuat dengan cinta dan kreativitas.
+  </p>
+  <p>
+    Nikmati pengalaman yang tidak hanya memanjakan lidah, tetapi juga menghadirkan suasana yang menenangkan,
+    seperti pagi yang cerah di tengah taman bunga biru. Karena di Tokitoki Tea,
+    setiap tegukan adalah momen yang layak dikenang.
+  </p>
+  <p><strong>#TegukanBahagia #TokitokiTea</strong></p>
+</header>
+
+
+  <!-- Menu -->
+  <section id="menu" class="menu">
+  <h2>Menu Minuman</h2>
+  <div class="menu-container">
+
+    <div class="item">
+      <img src="img/xing-fu-tang.jpg" alt="xing fu tang" />
+      <h3>xing fu tang</h3>
+      <p class="deskripsi">Teh susu brown sugar khas Taiwan dengan boba kenyal, dimasak dengan gula aren berkualitas. Manis, legit, dan bikin ketagihan!</p>
+      <p>Rp 15.000</p>
+      <button onclick="pesan('xing fu tang')">Pesan</button>
+    </div>
+
+    <div class="item">
+      <img src="img/tiger-sugar.jpg" alt="tiger sugar" />
+      <h3>tiger sugar</h3>
+      <p class="deskripsi">Perpaduan susu creamy, sirup karamel, dan boba gula aren dengan pola loreng harimau. Rasanya bold dan kaya tekstur.</p>
+      <p>Rp 17.000</p>
+      <button onclick="pesan('tiger sugar')">Pesan</button>
+    </div>
+
+    <div class="item">
+      <img src="img/xi-bo-ba.jpg" alt="xi bo ba" />
+      <h3>xi bo ba</h3>
+      <p class="deskripsi">Teh oolong ringan berpadu dengan fresh milk dan boba mutiara hitam. Earthy, lembut, cocok untuk pecinta rasa teh asli.</p>
+      <p>Rp 16.000</p>
+      <button onclick="pesan('xi bo ba')">Pesan</button>
+    </div>
+
+    <div class="item">
+      <img src="img/koi-the.jpg" alt="koi the" />
+      <h3>koi the</h3>
+      <p class="deskripsi">Teh susu premium dengan golden boba dan pilihan kadar gula. Segar, ringan, dan bisa disesuaikan sesuai selera manis kamu.</p>
+      <p>Rp 16.000</p>
+      <button onclick="pesan('koi the')">Pesan</button>
+    </div>
+
+    <div class="item">
+      <img src="img/kokumi.jpg" alt="kokumi" />
+      <h3>kokumi</h3>
+      <p class="deskripsi">Minuman creamy dengan rasa unik seperti unicorn drink dan cheesy foam. Rasanya manis, gurih, dan penuh kejutan!</p>
+      <p>Rp 15.000</p>
+      <button onclick="pesan('kokumi')">Pesan</button>
+    </div>
+
+    <div class="item">
+      <img src="img/street-boba.jpg" alt="street boba" />
+      <h3>street boba</h3>
+      <p class="deskripsi">Minuman boba kekinian dengan cita rasa khas Jepang seperti matcha dan taro, dilengkapi topping mochi kenyal dan colorful.</p>
+      <p>Rp 20.000</p>
+      <button onclick="pesan('street boba')">Pesan</button>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Tentang Kami -->
+<section id="tentang">
+  <h2>Tentang Kami</h2>
+  <p>
+    <strong>Tokitoki Tea</strong> adalah brand minuman kekinian yang menggabungkan rasa autentik teh
+    dengan inovasi modern dalam setiap gelasnya. Kami percaya bahwa setiap tegukan bukan hanya soal rasa —
+    tetapi juga pengalaman, suasana hati, dan kenangan yang menyertainya.
+  </p>
+  <p>
+    Berdiri dengan semangat lokal dan semilir angin kreativitas, Tokitoki Tea menyajikan beragam varian minuman
+    yang memanjakan lidah — mulai dari brown sugar boba klasik, fruit tea menyegarkan, hingga kreasi musiman yang unik.
+  </p>
+  <p>
+    Kami hanya menggunakan bahan-bahan berkualitas, topping yang fresh, dan pengolahan yang higienis.
+    Semua ini dilakukan demi memberikan pengalaman minum teh yang bukan hanya nikmat,
+    tapi juga menenangkan — seperti pagi yang cerah di tengah taman bunga Nemophila biru yang mekar.
+  </p>
+  <p>
+    Tokitoki Tea bukan hanya tempat membeli minuman, tapi tempat untuk menemukan kebahagiaan kecil dalam hari-harimu.  
+  </p>
+</section>
+
+
+ <!-- Kontak -->
+<section id="kontak">
+  <h2>Hubungi Kami</h2>
+  <p>WhatsApp: <a href="https://wa.me/6285179963127">+62 851-7996-3127</a></p>
+  <p>Instagram: <a href="https://instagram.com/kaze_no_hashiraa">@kaze_no_hashiraa</a></p>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tokitoki Tea. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
